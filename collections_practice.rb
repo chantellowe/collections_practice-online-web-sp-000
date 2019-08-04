@@ -42,5 +42,5 @@ def add_s(array)
     item + "s"
   end
   
-  array[2] - "s"
+  array[2].chop
 end 
