@@ -41,7 +41,7 @@ def add_s(array)
   array.collect do |item|
     item + "s"
   end
-  array[1].chop
+  #array[1].chop
   
   array
 end 
