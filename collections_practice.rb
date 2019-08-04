@@ -43,5 +43,5 @@ def add_s(array)
   end
   #array[1].chop
   
-  array
+  array.collect
 end 
