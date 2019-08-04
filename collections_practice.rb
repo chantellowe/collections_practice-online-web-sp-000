@@ -38,9 +38,10 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |item|
+  array.collect do |item|
     item + "s"
   end
+  array[1].chop
   
-  array[2].chop
+  array
 end 
